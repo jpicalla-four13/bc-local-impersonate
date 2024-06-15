@@ -1,0 +1,11 @@
+{
+  "name": "Local BigCommerce Customer Impersonate",
+  "manifest_version": 3,
+  "version": "1.0",
+  "description": "Extension for copying over an impersonated customer session.",
+  "permissions": ["cookies"],
+  "host_permissions": ["<all_urls>"],
+  "action": {
+    "default_popup": "popup.html"
+  }
+}
